@@ -50,15 +50,18 @@ From Command Line:
 4. Run npm test
 
 High Level purpose:
+
 The purpose of the following tests is to ensure a user can navigate to cars.com, perform a given search, ensure there search perameters are met, select a vehicle of choice, complete the contact form, and ensure the payment calculator is present. 
 
 Test method:
+
 These tests were written in a cucumber/gherkin syntax. Example: Given, When, Then. 
 Given Browser is open and user navigate to cars website.
 When Select "used cars" , "Honda" , "Pilot" , "50000" , "100 miles", "60008" and click and Assert filters
 Then four filters are displayed next to Clear All and perform assertion
 
 The methods are defined in the step definition file
+
 @Given("Browser is open and user navigate to cars website.")
 	public void browser_is_open_and_user_navigate_to_cars_website() throws MalformedURLException {
 		initialization();
@@ -70,6 +73,7 @@ The methods are defined in the step definition file
 	    dashBoard.setDashboardFields("Used Cars", "Honda", "Pilot", "$50,000", "100 Miles from", "60008");
       
  Built With:
+ 
  Selenium 
  Maven
  Cucumber
