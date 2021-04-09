@@ -55,7 +55,9 @@ The purpose of the following tests is to ensure a user can navigate to cars.com,
 
 Test method:
 
-These tests were written in a cucumber/gherkin syntax. Example: Given, When, Then. 
+These tests were written in a cucumber/gherkin syntax. 
+Example: Given, When, Then.
+
 Given Browser is open and user navigate to cars website.
 When Select "used cars" , "Honda" , "Pilot" , "50000" , "100 miles", "60008" and click and Assert filters
 Then four filters are displayed next to Clear All and perform assertion
