@@ -39,8 +39,15 @@ Install latest IDE of choice (This project was created and executed on Eclipse I
 Install latest webdriver (chromedriver, geckodriver, iedriver, etc)
 Install latest version of maven
 Install latest version of cucumber
+Install npm
 Download and install this project to your local machine
 Ensure the correct files are mapped in your correct source folders (Example, this test was created on a Mac)
+
+From Command Line:
+1. Download or clone this repo from gitlab
+2. CD to project folder
+3. Run npm install
+4. Run npm test
 
 High Level purpose:
 The purpose of the following tests is to ensure a user can navigate to cars.com, perform a given search, ensure there search perameters are met, select a vehicle of choice, complete the contact form, and ensure the payment calculator is present. 
