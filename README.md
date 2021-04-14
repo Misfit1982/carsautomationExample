@@ -39,15 +39,15 @@ Install latest IDE of choice (This project was created and executed on Eclipse I
 Install latest webdriver (chromedriver, geckodriver, iedriver, etc)
 Install latest version of maven
 Install latest version of cucumber
-Download and install this project to your local machine from GitHub
+Download, unzip and install this project to your local machine from GitHub
 Ensure the correct files are mapped in your correct source folders (Example, this test was created on a Mac)
 
 From Eclipse IDE
 1. Download the file from GitHub
 2. Open the main project from the file directory in Eclipse
 3. Ensure the following paths are changed to the local path in the project 
-	- myRunner.java //Path(s)
-	- baseclass.java line 40 webdriver.chrome.driver //path(s)//
+	- myRunner.java line 10 local //Path(s)//
+	- baseclass.java line 40 webdriver.chrome.driver local //path(s)//
 4. Save the project
 5. Right click on the myRunner.java file below the src/test/java folder select to run as Junit test. 
 
