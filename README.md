@@ -35,8 +35,8 @@ Getting Started:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 Prerequisites:
-Install latest IDE of choice (This project was created and executed on Eclipse IDE)
-Install latest webdriver (chromedriver, geckodriver, iedriver, etc)
+Install latest Eclipse IDE 
+Install latest chromedriver webdriver 
 Install latest version of maven
 Install latest version of cucumber
 Download, unzip and install this project to your local machine from GitHub
@@ -53,7 +53,7 @@ From Eclipse IDE (Easiest)
 5. Save the project
 6. Right click on the myRunner.java file below the src/test/java folder select to run as Junit test. 
 
-From Command Line:
+From Command Line (Hard)
 1. Download Eclipse IDE
 2. Download the project from GitHub
 3. Open the project from file directory in eclipse
