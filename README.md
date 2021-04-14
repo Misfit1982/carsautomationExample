@@ -39,15 +39,27 @@ Install latest IDE of choice (This project was created and executed on Eclipse I
 Install latest webdriver (chromedriver, geckodriver, iedriver, etc)
 Install latest version of maven
 Install latest version of cucumber
-Install npm
-Download and install this project to your local machine
+Download and install this project to your local machine from GitHub
 Ensure the correct files are mapped in your correct source folders (Example, this test was created on a Mac)
 
+From Eclipse IDE
+1. Download the file from GitHub
+2. Open the main project from the file directory in Eclipse
+3. Ensure the following paths are changed to the local path in the project 
+	- myRunner.java //Path(s)
+	- baseclass.java line 40 webdriver.chrome.driver //path(s)//
+4. Save the project
+5. Right click on the myRunner.java file below the src/test/java folder select to run as Junit test. 
+
 From Command Line:
-1. Download or clone this repo from gitlab
-2. CD to project folder
-3. Run npm install
-4. Run npm test
+1. Download Eclipse IDE
+2. Download the project from GitHub
+3. Open the project from file directory in eclipse
+4. Export the java project in to a Runnable jar - using Eclipse IDE
+5. Select the main or running class file - Launch configuration
+6. In Library handling - select the option [ Extract required libraries in to jar file ]
+7. Open command prompt and CD to the directory where runnable jar is available
+8. type > java -jar Runnable.jar
 
 High Level purpose:
 
