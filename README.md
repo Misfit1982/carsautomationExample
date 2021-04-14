@@ -42,14 +42,16 @@ Install latest version of cucumber
 Download, unzip and install this project to your local machine from GitHub
 Ensure the correct files are mapped in your correct source folders (Example, this test was created on a Mac)
 
-From Eclipse IDE
-1. Download the file from GitHub
-2. Open the main project from the file directory in Eclipse
-3. Ensure the following paths are changed to the local path in the project 
+From Eclipse IDE (Easiest)
+*Ensure you have downloaded the applications outlined in prerequisites
+1. Download the file from GitHub by right clicking the green "code" button and choosing to download the zip file.
+2. Extract the zip file to a local folder
+3. Open the main project from the file directory in Eclipse
+4. Ensure the following paths are changed to the local path in the project 
 	- myRunner.java line 10 local //Path(s)//
-	- baseclass.java line 40 webdriver.chrome.driver local //path(s)//
-4. Save the project
-5. Right click on the myRunner.java file below the src/test/java folder select to run as Junit test. 
+	- baseclass.java lines 39, 40, 54  webdriver.chrome.driver local //path(s)// *ghecko driver not used for this test
+5. Save the project
+6. Right click on the myRunner.java file below the src/test/java folder select to run as Junit test. 
 
 From Command Line:
 1. Download Eclipse IDE
