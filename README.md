@@ -39,7 +39,7 @@ Install latest Eclipse IDE
 Install latest chromedriver webdriver 
 Install latest version of maven
 Install latest version of cucumber
-Download, unzip and install this project to your local machine from GitHub
+Download, unzip and place this project on your local machine from GitHub
 Ensure the correct files are mapped in your correct source folders (Example, this test was created on a Mac)
 
 From Eclipse IDE (Easiest)
